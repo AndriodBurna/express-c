@@ -1,0 +1,15 @@
+# Ephraitech Unified Solutions — robots.txt
+
+User-agent: *
+Allow: /
+
+# Block admin panel from search engines
+Disallow: /control/
+Disallow: /control
+
+# Block temporary/system files
+Disallow: /*.log$
+Disallow: /writable/
+
+# Sitemap location
+Sitemap: https://ephraitech.com/sitemap.xml
